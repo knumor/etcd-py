@@ -9,7 +9,7 @@ def read(filename):
 setup(name="etcd-py",
       version="0.0.6",
       description="Client for Etcd",
-      long_description=read("README.rst"),
+      #long_description=read("README.rst"),
       author="Kris Foster",
       author_email="kris.foster@gmail.com",
       maintainer="Kris Foster",
