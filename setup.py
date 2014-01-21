@@ -23,6 +23,6 @@ setup(name="etcd-py",
                    "Programming Language :: Python",
                    "Programming Language :: Python :: 2.6",
                    "Programming Language :: Python :: 2.7"),
-      license=read("LICENSE"),
+      #license=read("LICENSE"),
       packages=['etcd'],
       )
