@@ -4,7 +4,7 @@ from distutils.core import setup
 
 
 def read(filename):
-    return open(filename).read()
+    return open(filename, 'rb').read().decode('utf-8')
 
 setup(name="etcd-py",
       version="0.0.6",
